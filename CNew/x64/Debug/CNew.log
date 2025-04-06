@@ -1,0 +1,82 @@
+﻿C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(58,43): : warning : format specifies type 'int' but the argument has type 'long' [-Wformat]
+     58 |         printf("%d\n" "%d\n" "%.2f\n", songuyen, kieulong, sothuc);
+        |                        ~~                        ^~~~~~~~
+        |                        %ld
+C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(66,2): : warning : 'itoa' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details. [-Wdeprecated-declarations]
+     66 |         itoa(d, buffer, 10);
+        |         ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1315,5): note: 'itoa' has been explicitly marked deprecated here
+   1315 |     _CRT_NONSTDC_DEPRECATE(_itoa) _CRT_INSECURE_DEPRECATE(_itoa_s)
+        |     ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(414,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+    414 |         #define _CRT_NONSTDC_DEPRECATE(_NewName) _CRT_DEPRECATE_TEXT(             \
+        |                                                  ^
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(310,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    310 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(68,2): : warning : 'ltoa' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _ltoa. See online help for details. [-Wdeprecated-declarations]
+     68 |         ltoa(e, buffer, 10);
+        |         ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1322,5): note: 'ltoa' has been explicitly marked deprecated here
+   1322 |     _CRT_NONSTDC_DEPRECATE(_ltoa) _CRT_INSECURE_DEPRECATE(_ltoa_s)
+        |     ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(414,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+    414 |         #define _CRT_NONSTDC_DEPRECATE(_NewName) _CRT_DEPRECATE_TEXT(             \
+        |                                                  ^
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(310,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    310 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(70,2): : warning : 'ultoa' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _ultoa. See online help for details. [-Wdeprecated-declarations]
+     70 |         ultoa(f, buffer, 10);
+        |         ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1337,5): note: 'ultoa' has been explicitly marked deprecated here
+   1337 |     _CRT_NONSTDC_DEPRECATE(_ultoa) _CRT_INSECURE_DEPRECATE(_ultoa_s)
+        |     ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(414,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+    414 |         #define _CRT_NONSTDC_DEPRECATE(_NewName) _CRT_DEPRECATE_TEXT(             \
+        |                                                  ^
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(310,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    310 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+  4 warnings generated.
+C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(58,43): : warning : format specifies type 'int' but the argument has type 'long' [-Wformat]
+     58 |         printf("%d\n" "%d\n" "%.2f\n", songuyen, kieulong, sothuc);
+        |                        ~~                        ^~~~~~~~
+        |                        %ld
+C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(66,2): : warning : 'itoa' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details. [-Wdeprecated-declarations]
+     66 |         itoa(d, buffer, 10);
+        |         ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1315,5): note: 'itoa' has been explicitly marked deprecated here
+   1315 |     _CRT_NONSTDC_DEPRECATE(_itoa) _CRT_INSECURE_DEPRECATE(_itoa_s)
+        |     ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(414,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+    414 |         #define _CRT_NONSTDC_DEPRECATE(_NewName) _CRT_DEPRECATE_TEXT(             \
+        |                                                  ^
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(310,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    310 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(68,2): : warning : 'ltoa' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _ltoa. See online help for details. [-Wdeprecated-declarations]
+     68 |         ltoa(e, buffer, 10);
+        |         ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1322,5): note: 'ltoa' has been explicitly marked deprecated here
+   1322 |     _CRT_NONSTDC_DEPRECATE(_ltoa) _CRT_INSECURE_DEPRECATE(_ltoa_s)
+        |     ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(414,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+    414 |         #define _CRT_NONSTDC_DEPRECATE(_NewName) _CRT_DEPRECATE_TEXT(             \
+        |                                                  ^
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(310,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    310 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+C:\Users\84764\source\repos\CNew\CNew\CNew.cpp(70,2): : warning : 'ultoa' is deprecated: The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _ultoa. See online help for details. [-Wdeprecated-declarations]
+     70 |         ultoa(f, buffer, 10);
+        |         ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1337,5): note: 'ultoa' has been explicitly marked deprecated here
+   1337 |     _CRT_NONSTDC_DEPRECATE(_ultoa) _CRT_INSECURE_DEPRECATE(_ultoa_s)
+        |     ^
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h(414,50): note: expanded from macro '_CRT_NONSTDC_DEPRECATE'
+    414 |         #define _CRT_NONSTDC_DEPRECATE(_NewName) _CRT_DEPRECATE_TEXT(             \
+        |                                                  ^
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vcruntime.h(310,47): note: expanded from macro '_CRT_DEPRECATE_TEXT'
+    310 | #define _CRT_DEPRECATE_TEXT(_Text) __declspec(deprecated(_Text))
+        |                                               ^
+  4 warnings generated.
